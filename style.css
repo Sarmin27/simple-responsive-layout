@@ -1,0 +1,30 @@
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    /* text-decoration: none; */
+}
+.nav-container a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+
+}
+.section-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    height: 600px;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+    width: 50%;
+    /* border: 2px solid green; */
+    border-radius: 5px;
+}
+.form-container input{
+    padding: 10px;
+}
+
