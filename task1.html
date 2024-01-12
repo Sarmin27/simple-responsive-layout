@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task1</title>
+    <style>
+        .section-container{
+            display: flex;
+            border: 2PX solid black;
+            border-radius: 10px;   
+            
+        }
+        .container1 , .container2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10PX;
+            height: 500px;
+            border-radius: 10px;
+            
+        }
+        
+        .container1{
+            background-color: rgb(197, 198, 198);
+            
+        }
+        .container2{
+            background-color:rgb(252, 245, 245);
+            
+        }
+        @media screen and (max-width:576px){
+            .section-container{
+                display: flex;
+                flex-direction: column;
+            }
+            
+        }  
+    </style>
+</head>
+<body>
+    <h1>Design and responsive flex layout</h1>
+    <section class="section-container">
+        <div style="flex-grow:4"class="container1">
+            <h3>left</h3>
+        </div>
+        <div style="flex-grow:12"class="container2">
+            <h3>Right</h3>
+        </div>
+    </section>
+    
+    
+    
+</body>
+</html>
